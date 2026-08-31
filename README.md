@@ -2,7 +2,7 @@
 
 SARA (Semantic-Augmented Retrieval Assistant) is a Retrieval-Augmented Generation (RAG) based AI assistant that combines semantic search with Large Language Models (LLMs) to generate accurate and context-aware responses from a knowledge base.
 
-##  Features
+## Features
 
 - Document ingestion and preprocessing
 - Text chunking for efficient retrieval
@@ -33,6 +33,15 @@ LLM
 Generated Answer
 ```
 
+## Repository Contents
+
+This repository contains the project in **both Jupyter Notebook (`.ipynb`) and Python (`.py`) formats**.
+
+- **`rag_pipeline.ipynb`** — The complete RAG workflow in Jupyter/Google Colab notebook format, useful for learning, experimentation, and step-by-step execution.
+- **Python files** — The same workflow organized into separate Python files based on the sequence of the code in the notebook, making the implementation easier to understand and reuse.
+
+The notebook and Python files are maintained together so that the project can be explored interactively in the notebook or executed using modular Python code.
+
 ## Technologies
 
 - Python
@@ -56,7 +65,7 @@ cd SARA-Semantic-Augmented-Retrieval-Assistant
 pip install -r requirements.txt
 ```
 
-Run the project according to the instructions provided in the source files.
+Run the notebook or use the Python files according to the instructions provided in the repository.
 
 ## Project Status
 
